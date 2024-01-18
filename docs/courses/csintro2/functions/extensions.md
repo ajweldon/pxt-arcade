@@ -159,7 +159,7 @@ projectile = sprites.createProjectile(img`
 2. Add an ``||game:on game update every 500ms||`` block
 3. Inside of ``||game:on game update every 500ms||`` block, create a new projectile with 1 or 2 pixels colored in white or yellow - this will be a single star in the sky
 4. Set the projectile to have a random ``||sprites:vx||`` between -90 and -30, so it moves across the screen to the left
-5. Set the projectile to have a random ``||sprites:y||`` position between 0 and ``||scene:screen height||``, and ``||sprites:set projectile ghost on||``
+5. Set the projectile to have a random ``||sprites:y||`` position between 0 and ``||scene:screen height||``, and ``||sprites:set: projectile ghost on||``
 6. Share the game and load it into another project (name the project "use starryNight")
 7. In your new project ("use starryNight")
     * Add a new ``||scene:background color||``
